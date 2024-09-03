@@ -56,3 +56,22 @@ function toggleDetails(button) {
 }
 
 
+
+
+function showAnswer(faqId) {
+    var answer = document.querySelector("#" + faqId + " .answer");
+    var typing = document.querySelector("#" + faqId + " .typing");
+    var botMessage = document.getElementById("botMessage-" + faqId);
+
+    if (botMessage.style.display === "none" || botMessage.style.display === "") {
+        botMessage.style.display = "flex";
+        typing.style.display = "block";
+        setTimeout(function() {
+            typing.style.display = "none";
+            answer.style.display = "block";
+        }, 1000); // Tiempo de simulación de escritura reducido para un estilo minimalista
+    } else {
+        botMessage.style.display = "none";
+        answer.style.display = "none";
+    }
+}
