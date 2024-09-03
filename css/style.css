@@ -9993,3 +9993,87 @@ h6,
 }
 
 
+/* chat*/
+
+.faq-section {
+  background: #343a40;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.faq-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.faq-question {
+  background: #FF5722;
+  color: #fff;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.faq-question:hover {
+  background: #e65c00;
+}
+
+.bot-message {
+  background: #454d55;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+}
+
+.typing {
+  display: none; /* inicialmente oculto */
+}
+
+.answer {
+  display: none; /* inicialmente oculto */
+}
+
+
+/* button burger */
+.offcanvas-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.offcanvas-title {
+  font-size: 1.5rem;
+  color: #ff4b2b;
+}
+
+.offcanvas-body a {
+  display: block;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.offcanvas-body a:hover {
+  color: #ff4b2b;
+}
+
+.offcanvas-body i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #ff4b2b;
+}
+
+.offcanvas-body .mt-4 {
+  margin-top: 1.5rem;
+}
+
+
