@@ -11,7 +11,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #fd7e14;
+  --orange: #ff7f00;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -19,7 +19,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #FF6600;
+  --primary: #ff7f00;
   --secondary: #F2F1F8;
   --success: #28a745;
   --info: #17a2b8;
@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #FF6600;
+  color: #ff7f00;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2374,14 +2374,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
+  background-color: #e67300;
+  border-color: #e67300;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2393,8 +2393,8 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -2669,14 +2669,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #FF6600;
-  border-color: #FF6600;
+  color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2684,15 +2684,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #FF6600;
+  color: #ff7f00;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2926,7 +2926,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #FF6600;
+  color: #ff7f00;
   text-decoration: none;
 }
 
@@ -3224,7 +3224,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #FF6600;
+  background-color: #ff7f00;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3584,8 +3584,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #FF6600;
-  background-color: #FF6600;
+  border-color: #ff7f00;
+  background-color: #ff7f00;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3649,8 +3649,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #FF6600;
-  background-color: #FF6600;
+  border-color: #ff7f00;
+  background-color: #ff7f00;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3876,7 +3876,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #FF6600;
+  background-color: #ff7f00;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3906,7 +3906,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #FF6600;
+  background-color: #ff7f00;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3939,7 +3939,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #FF6600;
+  background-color: #ff7f00;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4080,7 +4080,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FF6600;
+  background-color: #ff7f00;
 }
 
 .nav-fill > .nav-link,
@@ -4747,7 +4747,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #FF6600;
+  color: #ff7f00;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4780,8 +4780,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .page-item.disabled .page-link {
@@ -4864,7 +4864,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #FF6600;
+  background-color: #ff7f00;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5169,7 +5169,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #FF6600;
+  background-color: #ff7f00;
   transition: width 0.6s ease;
 }
 
@@ -5256,8 +5256,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .list-group-item + .list-group-item {
@@ -6361,7 +6361,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FF6600 !important;
+  background-color: #ff7f00 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6489,7 +6489,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #FF6600 !important;
+  border-color: #ff7f00 !important;
 }
 
 .border-secondary {
@@ -9531,7 +9531,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FF6600 !important;
+  color: #ff7f00 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9778,7 +9778,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FF6600;
+  color: #ff7f00;
 }
 
 @media (max-width: 991.98px) {
@@ -9823,7 +9823,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background: #ff7f00;
 }
 
 @media (max-width: 991.98px) {
@@ -9916,7 +9916,7 @@ h6,
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: #FF6600;
+  background: #ff7f00;
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9926,7 +9926,7 @@ h6,
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid #FF6600;
+  border: 2px solid #ff7f00;
   border-radius: 20px;
 }
 
@@ -9978,8 +9978,8 @@ h6,
 }
 
 .btn-primary {
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff7f00;
+  border-color: #ff7f00;
 }
 
 .btn-primary:hover {
@@ -10009,11 +10009,11 @@ h6,
 }
 
 .faq-question {
-  background: #FF5722;
+  background: #ff7f00;
   color: #fff;
   padding: 10px 20px;
   width: 100%;
-  border: none;
+  border: 1px solid #ff7f00; 
   text-align: left;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -10034,46 +10034,298 @@ h6,
   flex-direction: column;
 }
 
-.typing {
-  display: none; /* inicialmente oculto */
+
+/*Formulario */
+
+.form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
-.answer {
-  display: none; /* inicialmente oculto */
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+  font-weight: 700;
 }
 
-
-/* button burger */
-.offcanvas-header {
-  border-bottom: 1px solid #ddd;
+.form-container .form-group {
+  margin-bottom: 20px;
 }
 
-.offcanvas-title {
-  font-size: 1.5rem;
-  color: #ff4b2b;
-}
-
-.offcanvas-body a {
+.form-container label {
   display: block;
-  padding: 10px 0;
-  font-size: 1.2rem;
-  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
   color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container textarea:focus {
+  border-color: #ff7f00; /* Color naranja */
+}
+
+.form-container textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #ff7f00; /* Color naranja */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #cc6600; /* Naranja más oscuro */
+}
+.loader {
+  display: none; /* Oculto por defecto */
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #ff7f00; /* Naranja */
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Modal centrado */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Centra el modal completamente */
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alinea el modal al centro */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Ancho fijo del modal */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  position: relative;
+}
+
+.close-btn {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #ff7f00; /* Cambia el color del botón al pasar el mouse */
+}
+
+/* Icono de verificación */
+.success-icon {
+  font-size: 50px;
+  color: #28a745; /* Verde para indicar éxito */
+  margin-bottom: 15px;
+}
+
+.message-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
   font-weight: bold;
 }
 
-.offcanvas-body a:hover {
-  color: #ff4b2b;
+.team-item h5 {
+  font-size: 1.1rem; 
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  text-align: center;
 }
 
-.offcanvas-body i {
-  font-size: 1.5rem;
-  margin-right: 15px;
-  color: #ff4b2b;
+.team-item .bg-secondary p {
+  font-size: 1rem;
+  white-space: normal; /* Permite el ajuste en varias líneas */
+  overflow: visible;
+  text-overflow: unset;
+  text-align: center;
+  margin: 0; /* Ajusta los márgenes según sea necesario */
 }
 
-.offcanvas-body .mt-4 {
-  margin-top: 1.5rem;
+.team-item .team-details p {
+  font-size: 0.9rem; /* Ajusta el tamaño según sea necesario */
+  word-break: break-word; /* Fuerza el ajuste del texto largo en varias líneas */
+  white-space: normal; /* Permite saltos de línea */
+  overflow: visible; /* Asegura que el texto se vea completo */
+  text-overflow: clip; /* Evita puntos suspensivos */
+  text-align: center;
+  margin: 0;
 }
+
+
+
+.team-item .team-details p {
+  font-size: 0.9rem;
+  word-wrap: break-word; /* Permite que el correo se ajuste en varias líneas */
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.team-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ajusta esta altura según sea necesario para tu diseño */
+}
+
+
+
+.team-item .bg-secondary {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.col-md-6, .col-lg-3 {
+  min-height: 400px; /* Ajusta según sea necesario */
+}
+
+.team-item p {
+  font-size: 0.85rem; /* Ajusta el tamaño según necesites */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  margin: 0;
+  width: 100%; /* Asegura que el correo no se desborde del contenedor */
+}
+
+.accordion-body {
+  background-color: #333333; /* Fondo gris oscuro */
+  color: #ffffff; /* Texto blanco */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff7f00; /* Naranja para el botón activo */
+  color: #ffffff; /* Texto blanco */
+  border-color: #ff7f00;
+}
+
+.accordion-button {
+  background-color: #343a40; /* Naranja */
+  color: #ffffff; /* Texto blanco */
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+
+
+.list-group-item {
+  background-color: #454d55; /* Gris opaco */
+  border-color: #333333; /* Bordes para que coincidan con el fondo oscuro */
+  color: #ffffff; /* Texto negro para asegurar contraste */
+}
+
+.list-group-item .btn {
+  color: #ffffff; /* Asegura que el texto del botón siga siendo blanco */
+}
+
+
+.email-link {
+  color: white !important; /* Asegura que el color inicial sea blanco */
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #ff7f00 !important; /* Forza que el color cambie a naranja al pasar el mouse */
+}
+
+
+.map-link, .email-link {
+  color: white !important; /* Color blanco por defecto */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+.map-link:hover, .email-link:hover {
+  color: #ff7f00 !important; /* Cambia a naranja al pasar el mouse */
+}
+
+
+.social-link {
+  color: white !important; /* Color blanco para los iconos */
+  border-color: white !important; /* Color blanco para el borde */
+  transition: color 0.3s ease, border-color 0.3s ease; /* Transiciones suaves */
+}
+
+.social-link:hover {
+  color: #ff7f00 !important; /* Cambia el color del icono a naranja al pasar el mouse */
+  border-color: #ff7f00 !important; /* Cambia el color del borde a naranja al pasar el mouse */
+}
+
+
+.ally-link {
+  color: white !important; /* Color blanco por defecto */
+  text-decoration: none; /* Sin subrayado */
+  transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.ally-link:hover {
+  color: orange !important; /* Cambia el color a naranja al pasar el mouse */
+}
+
+
 
 
