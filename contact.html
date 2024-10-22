@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ECOURSES - Online Courses HTML Template</title>
+    <title>PREGUNTAS FRECUENTES</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" href="img/logo.png" type="image/png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,14 +27,19 @@
 
 <body>
 <!-- Header Start -->
-<div class="container-fluid bg-light d-none d-lg-block">
-    <div class="row align-items-center py-2 px-xl-5">
-        <div class="col-lg-3">
-            <a href="" class="text-decoration-none">
-                <h1 class="m-0 font-weight-bold text-dark"><span class="text-primary">T</span>ITULACION</h1>
+<div class="container-fluid bg-light"></div>
+    <div class="row align-items-center py-2 px-3 px-lg-5">
+        <div class="col-lg-5 d-flex align-items-center">
+            <!-- El enlace engloba tanto la imagen como el título -->
+            <a href="index.html" class="text-decoration-none d-flex align-items-center">
+                <img src="img/logo.png" alt="Titulación" class="img-fluid" style="max-width: 115px; height: auto;">
+                <h1 class="m-0 font-weight-bold text-dark ml-2" style="margin-left: 10px;">
+                    <span class="text-primary">T</span>ITULACIÓN
+                </h1>
             </a>
         </div>
-        <div class="col-lg-9">
+
+        <div class="col-6 col-lg-7">
             <nav class="navbar navbar-expand-lg navbar-light py-2">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -43,15 +48,9 @@
                     <div class="navbar-nav">
                         <a href="index.html" class="nav-item nav-link">Inicio</a>
                         <a href="about.html" class="nav-item nav-link">Reglamento</a>
-                        <a href="course.html" class="nav-item nav-link">Formatos</a>
+                        <a href="course.html" class="nav-item nav-link ">Formatos</a>
                         <a href="teacher.html" class="nav-item nav-link">Responsables</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
-                            <div class="dropdown-menu bg-light border-0 rounded-0 m-0">
-                                <a href="blog.html" class="dropdown-item">Blog List</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                            </div>
-                        </div>
+                        <a href="blog.html" class="nav-item nav-link">Sugerencias</a>
                         <a href="contact.html" class="nav-item nav-link active">Preguntas Frecuentes</a>
                     </div>
                 </div>
@@ -59,7 +58,7 @@
         </div>
     </div>
 </div>
-<!-- Navbar End -->
+<!-- Header End -->
 
 <!-- Header Start -->
 <div class="container-fluid page-header" style="margin-bottom: 90px;">
@@ -88,154 +87,244 @@
                 <!--<h2 class="faq-title">Preguntas Frecuentes</h2>-->
     
                 <div class="faq-item" id="faq1">
-                    <button class="faq-question" onclick="showAnswer('faq1')">¿Cómo me registro en el curso?</button>
+                    <button class="faq-question" onclick="showAnswer('faq1')">¿Cuándo inicia el proceso de titulación?</button>
                     <div class="bot-message" id="botMessage-faq1" style="display: none;">
-                        <div class="typing" style="display: block;">...</div>
                         <div class="answer" style="display: none;">
-                            Puedes registrarte visitando nuestra página de registro y llenando el formulario correspondiente.
+                            Inicia cuando el estudiante se matricule en el último nivel de la carrera, dentro del plazo establecido por la institución, 
+                            siempre que haya aprobado todos los prerrequisitos de las asignaturas del último nivel.
                         </div>
                     </div>
                 </div>
     
                 <div class="faq-item" id="faq2">
-                    <button class="faq-question" onclick="showAnswer('faq2')">¿Cuáles son los requisitos para el curso?</button>
+                    <button class="faq-question" onclick="showAnswer('faq2')">¿Qué modalidades de titulación están disponibles en la universidad?</button>
                     <div class="bot-message" id="botMessage-faq2" style="display: none;">
-                        <div class="typing" style="display: block;">...</div>
                         <div class="answer" style="display: none;">
-                            Los requisitos varían según el curso, pero generalmente necesitas tener acceso a una computadora y conexión a internet.
+                            Las opciones de titulación son: <br> 
+
+a. Trabajo de titulación, pudiendo ser: <br>
+
+1. Trabajo de Investigación <br>
+
+2. Artículo Científico <br>
+
+3. Proyecto Técnico <br>
+
+4. Proyecto de Emprendimiento <br>
+
+b. Examen de Grado de carácter Complexivo Teórico – Práctico <br>
                         </div>
                     </div>
                 </div>
     
                 <div class="faq-item" id="faq3">
-                    <button class="faq-question" onclick="showAnswer('faq3')">¿Qué formas de pago aceptan?</button>
+                    <button class="faq-question" onclick="showAnswer('faq3')">¿Cuántas matrículas hay en titulación?</button>
                     <div class="bot-message" id="botMessage-faq3" style="display: none;">
-                        <div class="typing" style="display: block;">...</div>
                         <div class="answer" style="display: none;">
-                            Aceptamos pagos con tarjeta de crédito, PayPal, y transferencias bancarias.
+                            El estudiante podrá hacer uso de hasta tres matrículas para concluir su titulación con la finalidad de habilitar el cierre de su proceso formativo. <br> <br>
+                            <b>a. Primera matrícula:</b> Esta matrícula se realiza en el último nivel de la carrera con la finalidad de habilitar al estudiante para el cierre de su proceso formativo. <br>
+                            Se ejecutará cuando el estudiante se matricule en el último nivel de la carrera, dentro del plazo establecido por la institución, siempre que haya aprobado todos los prerrequisitos de las asignaturas del último nivel. <br>
+                        <b>b. Segunda matrícula:</b> La segunda matrícula de forma consecutiva o no a su primera matrícula, se realizará a petición del estudiante, cuando no haya concluido su proceso de titulación. <br>
+                        <b>c. Tercera matrícula:</b> Esta matrícula se realizará a petición del estudiante de forma consecutiva o no a la segunda matrícula, cuando no haya concluido el proceso de titulación. Siendo su última oportunidad para concluir el proceso <br>
+                        <b>d. Matrícula en actualización de conocimientos:</b> Esta matrícula se realizará a petición del estudiante cuando, se hayan ejecutado ajustes curriculares sustantivos y hayan transcurrido hasta nueve años desde la aprobación del último nivel. 
+                        Una vez aprobado el curso de actualización de conocimientos, el estudiante deberá, en el período inmediato subsiguiente, gestionar la segunda o tercera matrícula según corresponda. En caso de reprobar el curso de actualización de conocimientos 
+                        el estudiante reprobará su opción de titulación.
+
                         </div>
                     </div>
                 </div>
     
                 <div class="faq-item" id="faq4">
-                    <button class="faq-question" onclick="showAnswer('faq4')">¿Puedo obtener un certificado al finalizar el curso?</button>
+                    <button class="faq-question" onclick="showAnswer('faq4')">¿Qué documentos presentar para matricularse en titulación?</button>
                     <div class="bot-message" id="botMessage-faq4" style="display: none;">
-                        <div class="typing" style="display: block;">...</div>
                         <div class="answer" style="display: none;">
-                            Sí, ofrecemos un certificado digital al completar todos los módulos y evaluaciones del curso.
+                            <ul style="list-style-type: disc; padding-left: 20px;">
+                                <li><strong>Primera matrícula:</strong>
+                                    <ul style="list-style-type: circle; padding-left: 20px;">
+                                        <li>Se ejecutará cuando el estudiante se matricule en el último nivel de la carrera.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Segundo y tercera matrícula:</strong>
+                                    <ul style="list-style-type: circle; padding-left: 20px;">
+                                        <li>Matrícula no consecutiva, oficio dirigido al señor Decano de la Facultad de Ingeniería.</li>
+                                        <li>Matrícula consecutiva, oficio dirigido al señor Director de carrera.</li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                
     
                 <div class="faq-item" id="faq5">
-                    <button class="faq-question" onclick="showAnswer('faq5')">¿Cuánto tiempo tengo para completar el curso?</button>
+                    <button class="faq-question" onclick="showAnswer('faq5')">¿Cómo solicitar la matrícula consecutiva?</button>
                     <div class="bot-message" id="botMessage-faq5" style="display: none;">
-                        <div class="typing" style="display: block;">...</div>
                         <div class="answer" style="display: none;">
-                            El curso está disponible durante 12 meses desde el momento en que te registras.
+                            La matrícula consecutiva será solicitada en la secretaria de la carrera, instancia que verificará la consecutividad y procederá con su registro en el SICOA. La matrícula en el curso de actualización de conocimientos será solicitada 
+                            la secretaría de la carrera, instancia que verificará la ejecución de ajustes curriculares sustantivos y que hayan transcurrido hasta 9 años desde la aprobación del último nivel previa elaboración de la matrícula.
                         </div>
                     </div>
                 </div>
     
                 <div class="faq-item" id="faq6">
-                    <button class="faq-question" onclick="showAnswer('faq6')">¿Qué sucede si no puedo asistir a una clase en vivo?</button>
+                    <button class="faq-question" onclick="showAnswer('faq6')">¿Cómo solicitar la segunda o tercera matrícula no consecutiva?</button>
                     <div class="bot-message" id="botMessage-faq6" style="display: none;">
-                        <div class="typing" style="display: block;">...</div>
                         <div class="answer" style="display: none;">
-                            Todas las clases en vivo se graban y puedes acceder a ellas en cualquier momento.
-                        </div>
+                            La segunda o tercera matrícula no consecutiva podrán ser solicitadas al Decano en los plazos de matrícula establecidos en el calendario académico, quien emitirá la autorización únicamente si han transcurrido menos de diez años desde el 
+                            último nivel cursado, con base en el informe del Director de Carrera. En las carreras que se hayan ejecutado ajustes curriculares sustantivos el peticionario deberá contar de manera preliminar con el certificado de aprobación del curso de actualización de conocimientos.
                     </div>
                 </div>
     
                 <div class="faq-item" id="faq7">
-                    <button class="faq-question" onclick="showAnswer('faq7')">¿Hay soporte técnico disponible?</button>
+                    <button class="faq-question" onclick="showAnswer('faq7')">¿Cuándo seleccionar la opción de titulación?</button>
                     <div class="bot-message" id="botMessage-faq7" style="display: none;">
-                        <div class="typing" style="display: block;">...</div>
                         <div class="answer" style="display: none;">
-                            Sí, nuestro equipo de soporte técnico está disponible 24/7 para ayudarte con cualquier problema.
+                            El estudiante seleccionará su opción de titulación y notificará mediante oficio al Director de Carrera sobre la opción seleccionada hasta la octava semana en curso del nivel inmediato anterior que contemple la asignatura o espacio académico establecido en malla para el desarrollo
+                            de la opción de titulación.
                         </div>
                     </div>
                 </div>
+
+                <div class="faq-item" id="faq8">
+                    <button class="faq-question" onclick="showAnswer('faq8')">¿Podrá el estudiante matricularse en Titulación si no aprueba la asignatura o un espacio académico de titulación, integración curricular u otras de la malla?</button>
+                    <div class="bot-message" id="botMessage-faq8" style="display: none;">
+                        <div class="answer" style="display: none;">
+                            Si el estudiante no aprueba una asignatura o un espacio académico de titulación, integración curricular u otras de la malla, podrá acceder a la segunda o tercera matrícula de titulación previa solicitud por parte del estudiante, cuyo arancel está determinado en la normativa interna.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="faq-item" id="faq10">
+                    <button class="faq-question" onclick="showAnswer('faq10')">¿¿Cuándo el estudiante reprueba la opción de titulación??</button>
+                    <div class="bot-message" id="botMessage-faq10" style="display: none;">
+                        <div class="answer" style="display: none;">
+                            El estudiante reprobará la opción de titulación por las siguientes causas: <br> <br>
+
+                            <b>a.</b> Cuando el estudiante no alcance el puntaje establecido en la evaluación de la opción de titulación seleccionada en la matrícula que se encuentre; <br>
+
+                            <b>b.</b> Cuando el estudiante que curse la tercera matrícula de titulación abandone el proceso. <br>
+
+                            <b>c.</b> Cuando hayan transcurrido más de diez años desde el último nivel cursado de la carrera sin que haya aprobado la titulación. <br> <br>
+
+                            Cuando un estudiante repruebe la opción de titulación definitivamente podrá optar por el cambio de carrera en la institución o cambio a otra universidad, aplicando procesos de reconocimiento
+                            u homologación de estudios; las condiciones de gratuidad se sujetarán a la normativa correspondiente. Los procesos de reconocimiento 
+                            u homologación de estudios no aplican para los casos contemplados en el literal c. del presente artículo.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="faq-item" id="faq11">
+                    <button class="faq-question" onclick="showAnswer('faq11')">¿Cuándo el estudiante puede cambiar la opción de titulación?</button>
+                    <div class="bot-message" id="botMessage-faq11" style="display: none;">
+                        <div class="answer" style="display: none;">
+                            El estudiante que requiera el cambio de la opción de titulación, podrá gestionar ante el Director de Carrera por única vez, en los siguientes casos: <br> <br>
+
+                            <b>a.</b> Cuando el estudiante por caso fortuito o fuerza mayor, plenamente justificado demuestre su impedimento para el desarrollo de la opción escogida, siempre que se encuentre matriculado en titulación. <br>
+                            
+                            <b>b.</b> Cuando el estudiante haya reprobado la evaluación de la opción de titulación escogida. <br>
+                            
+                            <b>c.</b> Cuando el estudiante se encuentre en el primer periodo académico de actualización de conocimientos y no haya sido beneficiario antes del cambio de la opción de titulación. <br> <br>
+                            
+                            En estos casos el estudiante deberá presentar una solicitud de cambio de opción de titulación ante el Director de carrera, quien en conjunto con la Comisión de carrera deberá analizar la petición de cambio de la opción de titulación y elaborarán el correspondiente informe, hasta tres días hábiles luego de presentada la solicitud; instancia que resolverá y notificará al estudiante hasta en un plazo de cinco días hábiles posteriores de haber recibido la solicitud. Si al solicitar el cambio de opción
+                            
+                            de titulación, el estudiante tiene aprobadas las asignaturas y/o espacios académicos, se reconocerán y deberá continuar y culminar con el proceso de titulación en sus matrículas correspondientes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq12">
+                    <button class="faq-question" onclick="showAnswer('faq12')">¿Cuándo el estudiante podrá cambiar de tutor?</button>
+                    <div class="bot-message" id="botMessage-faq12" style="display: none;">
+                        <div class="answer" style="display: none;">
+                            El estudiante podrá solicitar cambio de tutor por las siguientes razones: <br> <br>
+
+                            <b>1.</b> Incumplimiento de tutorías <br>
+                            
+                            <b>2.</b>  Ausencia temporal o definitiva del tutor <br>
+                            
+                            <b>3.</b> Desvinculación del tutor <br> <br>
+                            
+                            El Decano conocerá y resolverá dichas solicitudes en el término de 3 días, misma que no será susceptible de impugnación. En el caso de concederse el cambio de tutor se notificará al Director de Carrera a fin de que se proceda conforme lo estipulado en el reglamento
+                        </div>
+                    </div>
+                </div>
+
+
     
             </div>
         </div>
     </div>
+
+</div>
     
     <!-- Contact End -->
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-        <div class="row pt-5">
-            <div class="col-lg-7 col-md-12">
-                <div class="row">
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                        <div class="d-flex justify-content-start mt-4">
-                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Courses</h5>
-                        <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
-                        </div>
-                    </div>
-                </div>
+ <!-- Footer Start -->
+<div class="container-fluid bg-dark text-white py-3" style="margin-top: 0; padding-top: 10px; padding-bottom: 10px; min-height: 20vh; display: flex; flex-direction: column; justify-content: flex-start;">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-6 mb-4 text-center"><br> <br> <br> <br>
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Contáctanos</h5>
+            <p style="margin-bottom: 10px;">
+                <i class="fa fa-map-marker-alt mr-2"></i>
+                <a href="https://www.google.com/maps?q=Av.+Antonio+José+de+Sucre+Km+1+1/2+camino+a+Guano,+Velasco+Riobamba,+Ecuador" target="_blank" class="map-link">
+                    Av. Antonio José de Sucre Km 1 1/2 camino a Guano ----(RRPP) Velasco Riobamba, Ecuador
+                </a>
+            </p>
+            
+
+            <p style="margin-bottom: 10px;">
+                <i class="fa fa-envelope mr-2"></i>
+                <a href="mailto:titulacion.ingenieria@unach.edu.ec" class="email-link">
+                    titulacion.ingenieria@unach.edu.ec
+                </a>
+            </p>
+            
+            <div class="d-flex justify-content-center mt-3">
+                <a class="btn btn-outline-light btn-square social-link mr-2" href="https://x.com/Unach_ec">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-outline-light btn-square social-link mr-2" href="https://www.facebook.com/unach.ec">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-outline-light btn-square social-link" href="https://www.instagram.com/ingenieriaunach/">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
-            <div class="col-lg-5 col-md-12 mb-5">
-                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Newsletter</h5>
-                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo no lorem est diam</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-4 text-center">  <br> <br> <br> <br>
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Aliados</h5>
+            <div class="d-flex flex-column align-items-center">
+                <a class="text-white ally-link mb-2" href="https://www.unach.edu.ec/">
+                    <i class="fa fa-angle-right mr-2"></i>Universidad Nacional de Chimborazo
+                </a>
+                <a class="text-white ally-link mb-2" href="https://www.facebook.com/FacultadIngenieriaUnach">
+                    <i class="fa fa-angle-right mr-2"></i>Ingeniería Unach
+                </a>
+                <a class="text-white ally-link mb-2" href="#">
+                    <i class="fa fa-angle-right mr-2"></i>D'Soft.Net
+                </a>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <div class="row">
-            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="#">Domain Name</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a>
-                </p>
-            </div>
-            <div class="col-lg-6 text-center text-md-right">
-                <ul class="nav d-inline-flex">
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Privacy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Terms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Help</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+
+    <div class="container-fluid bg-dark text-white border-top py-2 text-center" style="margin-bottom: 0; width: 100%;">
+        <span>
+            &copy; 2024 Todos los derechos reservados | TITULACIÓN - Unach | Powered By 
+            <a href="https://www.facebook.com/profile.php?id=61551591911624" target="_blank">D'Soft.Net</a>
+        </span>
     </div>
-    <!-- Footer End -->
+</div>
+<!-- Footer End -->
 
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" style="display: none;"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+<!-- Asegúrate de incluir FontAwesome en tu proyecto para que los iconos se muestren correctamente -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
 
     <!-- JavaScript Libraries -->

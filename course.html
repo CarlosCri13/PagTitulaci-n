@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
+
+    
     <meta charset="utf-8">
-    <title>Formatos</title>
+    <title>FORMATOS</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" href="img/logo.png" type="image/png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,45 +24,69 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-light d-none d-lg-block">
-        <div class="row align-items-center py-2 px-xl-5">
-            <div class="col-lg-3">
-                <a href="" class="text-decoration-none">
-                    <h1 class="m-0 font-weight-bold text-dark"><span class="text-primary">T</span>ITULACION</h1>
-                </a>
-            </div>
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg navbar-light py-2">
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                        <div class="navbar-nav">
-                            <a href="index.html" class="nav-item nav-link">Inicio</a>
-                            <a href="about.html" class="nav-item nav-link">Reglamento</a>
-                            <a href="course.html" class="nav-item nav-link active">Formatos</a>
-                            <a href="teacher.html" class="nav-item nav-link">Responsables</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
-                                <div class="dropdown-menu bg-light border-0 rounded-0 m-0">
-                                    <a href="blog.html" class="dropdown-item">Blog List</a>
-                                    <a href="single.html" class="dropdown-item">Blog Detail</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link">Contacto</a>
-                        </div>
+     <!-- Estilos personalizados para cambiar el color a un naranja más suave -->
+     <style>
+        .btn-primary {
+            background-color: #ff7f00; /* Naranja suave */
+            border-color: #ff7f00;
+        }
+        .btn-primary:hover {
+            background-color: #ff7f00; /* Tonalidad más clara al pasar el cursor */
+            border-color: #ff7f00;
+        }
+        .accordion-button {
+            background-color: #ff7f00; /* Naranja suave */
+            color: #fff;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #ff7f00; /* Tonalidad más clara cuando está expandido */
+            color: #fff;
+        }
+        .accordion-button::after {
+            filter: invert(1);
+        }
+    </style>
+
+<!-- Header Start -->
+<div class="container-fluid bg-light"></div>
+    <div class="row align-items-center py-2 px-3 px-lg-5">
+        <div class="col-lg-5 d-flex align-items-center">
+            <!-- El enlace engloba tanto la imagen como el título -->
+            <a href="index.html" class="text-decoration-none d-flex align-items-center">
+                <img src="img/logo.png" alt="Titulación" class="img-fluid" style="max-width: 115px; height: auto;">
+                <h1 class="m-0 font-weight-bold text-dark ml-2" style="margin-left: 10px;">
+                    <span class="text-primary">T</span>ITULACIÓN
+                </h1>
+            </a>
+        </div>
+
+        <div class="col-6 col-lg-7">
+            <nav class="navbar navbar-expand-lg navbar-light py-2">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Reglamento</a>
+                        <a href="course.html" class="nav-item nav-link active">Formatos</a>
+                        <a href="teacher.html" class="nav-item nav-link">Responsables</a>
+                        <a href="blog.html" class="nav-item nav-link">Sugerencias</a>
+                        <a href="contact.html" class="nav-item nav-link">Preguntas Frecuentes</a>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
     </div>
-    <!-- Navbar End -->
+</div>
+<!-- Header End -->
 
 <!-- Header Start -->
 <div class="container-fluid page-header" style="margin-bottom: 90px;">
@@ -79,88 +105,7 @@
 
 
     <!-- Category Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Subjects</h5>
-                <h1>Explore Top Subjects</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-1.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Web Design</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-2.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Development</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-3.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Game Design</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Apps Design</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-5.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Marketing</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-6.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Research</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-7.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Content Writing</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-8.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">SEO</h4>
-                            <span>Formatos</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Category Start -->
 
 
@@ -171,113 +116,790 @@
             <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Formatos</h5>
             <h1>Formatos Disponibles para Titulación</h1>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="bg-secondary p-4 rounded">
-                    <h3 class="text-white">Formato de Tesis</h3>
-                    <p class="text-white-50">Descarga el formato de tesis para seguir la estructura correcta.</p>
-                    <a href="files/formato_solicitud_de_aprobacion_de_curso_de_nivelacion.docx" download class="btn btn-primary">Descargar Formato</a>
+            <!-- Carrera Vigente -->
+    <h2 class="mb-4">Carrera Vigente</h2>
+    <div class="accordion mb-5" id="accordionVigente">
+        <!-- Sección 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingVigente1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVigente1" aria-expanded="true" aria-controls="collapseVigente1">
+                    Examen Complexivo Teórico-Práctico -TIC
+                </button>
+            </h2>
+            <div id="collapseVigente1" class="accordion-collapse collapse" aria-labelledby="headingVigente1" data-bs-parent="#accordionVigente">
+                <div class="accordion-body">
+                    <!-- Lista de formatos -->
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Oficio de Temáticas Estudiantes
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/1_Oficio de Temáticas Estudiantes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Oficio de Temáticas Docentes
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/2_Oficio de Temáticas Docentes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud rendir examen complexivo teórico
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/3_Solicitud rendir examen complexivo teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Planificación Asesoramiento Temas de Asignaturas
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/UNACH-RGF-01-04-10.01 Planificación Asesoramiento Temas de Asignaturas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asesoramiento de Asignaturas-CODIGO
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/UNACH-RGF-01-04-10.02 Registro Asesoramiento de Asignaturas - CODIGO.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Cumplimiento Asesoramiento
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/UNACH-RGF-01-04-10.03 Certificado Cumplimiento Asesoramiento.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asistencia Examen Complexivo Comp-Teórico
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/UNACH-RGF-01-04-10.04 Registro Asistencia Examen Complexivo Comp-Teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asistencia Examen Complexivo Comp-Práctico
+                            <a href="Formatos/Formatos/Carrera vigente/10_Examen Complexivo Teórico - Práctico - TIC/UNACH-RGF-01-04-10.05 Registro Asistencia Examen Complexivo Comp-Práctico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <!-- Agrega más formatos según sea necesario -->
+                    </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="bg-secondary p-4 rounded">
-                    <h3 class="text-white">Formato de Proyecto de Grado</h3>
-                    <p class="text-white-50">Descarga el formato para proyectos de grado.</p>
-                    <a href="files/SOLICITUD DE LA MALLA CURRICULAR.docx" download class="btn btn-primary">Descargar Formato</a>
-                </div>
-            </div>
-            <!-- Agrega más formatos si es necesario -->
         </div>
-    </div>
-</div>
-<!-- Formats End -->
+        <!-- Secciones adicionales (2 a 6) -->
+        <!-- Sección 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingVigente2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVigente2" aria-expanded="false" aria-controls="collapseVigente2">
+                    Actualización de Conocimientos
+                </button>
+            </h2>
+            <div id="collapseVigente2" class="accordion-collapse collapse" aria-labelledby="headingVigente2" data-bs-parent="#accordionVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Solicitud Modificación Malla
+                            <a href="Formatos/Formatos/Carrera vigente/11_Actualización de Conocimientos - TIC/1_Solicitud Modificación Malla.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Modificación Malla Curricular
+                            <a href="Formatos/Formatos/Carrera vigente/11_Actualización de Conocimientos - TIC/UNACH-RGF-01-04-11.01 Certificado Modificacion Malla Curricular.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asistencia Curso Actualización de Conocimientos
+                            <a href="Formatos/Formatos/Carrera vigente/11_Actualización de Conocimientos - TIC/UNACH-RGF-01-04-11.02 Registro Asistencia Curso Actualizaciónde Conocimientos.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Lista Estudiantes Habilitados
+                            <a href="Formatos/Formatos/Carrera vigente/11_Actualización de Conocimientos - TIC/UNACH-RGF-01-04-11.03 Lista Estudiantes Habilitados.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta de Calificaciones Curso Actualización de Conocimientos
+                            <a href="Formatos/Formatos/Carrera vigente/11_Actualización de Conocimientos - TIC/UNACH-RGF-01-04-11.04 Acta de Calificaciones Curso Actualización de Conocimientos.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Aprobación Curso Actualización de Conocimientos
+                            <a href="Formatos/Formatos/Carrera vigente/11_Actualización de Conocimientos - TIC/UNACH-RGF-01-04-11.05 Certificado Aprobación Curso Actualización de Conocimientos.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <!-- Agrega más formatos según sea necesario -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Continúa con las secciones 3 a 6 de la misma manera -->
 
-<!-- Footer Start -->
-<div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-    <div class="row pt-5">
-        <div class="col-lg-7 col-md-12">
-            <div class="row">
-                <div class="col-md-6 mb-5">
-                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Contáctanos</h5>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Calle, Nueva York, USA</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                    <div class="d-flex justify-content-start mt-4">
-                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5">
-                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Nuestros Cursos</h5>
-                    <div class="d-flex flex-column">
-                        <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Diseño Web</a>
-                        <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Diseño de Apps</a>
-                        <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
-                        <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Investigación</a>
-                        <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-5 col-md-12 mb-5">
-            <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Boletín Informativo</h5>
-            <p>Suscríbete a nuestro boletín para recibir las últimas novedades y actualizaciones.</p>
-            <div class="w-100">
-                <div class="input-group">
-                    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tu dirección de correo electrónico">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary px-4">Suscribirse</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(255, 255, 255, .1) !important;">
-    <div class="row">
-        <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-            <span>
-                &copy; 2024 Todos los derechos reservados | TITULACIÓN - Unach | Powered By 
-                <a href="https://www.facebook.com/profile.php?id=61551591911624" target="_blank">D'Soft.Net</a>
-            </span>
+
+        <!-- Sección 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingVigente3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVigente3" aria-expanded="false" aria-controls="collapseVigente3">
+                    Registro de Título e Incorporación-TE-TIC
+                </button>
+            </h2>
+            <div id="collapseVigente3" class="accordion-collapse collapse" aria-labelledby="headingVigente3" data-bs-parent="#accordionVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Acta de Grado
+                            <a href="Formatos/Formatos/Carrera vigente/6_Registro de Titulo e Incorporacion - TE-TIC/ACTA DE GRADO.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Matriz Información de Graduados
+                            <a href="Formatos/Formatos/Carrera vigente/6_Registro de Titulo e Incorporacion - TE-TIC/MATRIZDE INFORMACION DE GRADUADOS.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <!-- Agrega más formatos según sea necesario -->
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6 text-center text-md-right">
-            <ul class="nav d-inline-flex" style="justify-content: center;">
-                <li class="nav-item">
-                    <a class="nav-link text-white py-1" href="https://www.facebook.com/" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
+
+
+        <!-- Sección 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingVigente4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVigente4" aria-expanded="false" aria-controls="collapseVigente4">
+                    Planificación Ejecución y Seguimiento -TIC
+                </button>
+            </h2>
+            <div id="collapseVigente4" class="accordion-collapse collapse" aria-labelledby="headingVigente4" data-bs-parent="#accordionVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Oficio opción titulación seleccionada
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/1_Oficio opción titulacion seleccionada.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud de Matrícula
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/2_Solicitud de Matricula.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Instructivo para la Gestión de Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-IGF-01-04-07.10 Instructivo para la Gestión de Titulación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Plan de Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.01 Plan de Titulación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Parcial de Seguimiento
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.02 Informe Parcial de Seguimiento.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Final de Seguimiento
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.03 Informe Final de Seguimiento.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Cronograma de Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.04 Cronograma de Titulación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Actividades de Seguimiento y Evaluación de Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.05 Actividades Seguimiento y Evaluación de Titulación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Nómina Profesores Legibles para Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.06 Nómina Profesores Legibles para Titulacion.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Profesores Designados para Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.07 Registro Profesores Designados para Titulación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Nómina de Estudiantes en Titulación por Cohorte - Situación de Matrícula - Opción de Titulación Escogida
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.08 Nómina Estudiantes por Cohorte – Opción de titulación escogida.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Consolidado de Carrera del Proceso de Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.09 Reporte Consolidado de Carrera del Proceso de Titulación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Estado Proceso de Titulación
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.11 Reporte Estado Proceso de Titulación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte de Acciones Ejecutadas
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.12 Reporte de Acciones Ejecutadas.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Consolidado de Titulación Institucional
+                            <a href="Formatos/Formatos/Carrera vigente/7_Planificación Ejecución y seguimiento - TIC/UNACH-RGF-01-04-07.13 Reporte Consolidado de Titulación Institucional.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <!-- Agrega más formatos según sea necesario -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <!-- Sección 5 -->
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="headingVigente5">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVigente5" aria-expanded="false" aria-controls="collapseVigente5">
+            Trabajo de Investigación - TIC
+        </button>
+    </h2>
+    <div id="collapseVigente5" class="accordion-collapse collapse" aria-labelledby="headingVigente5" data-bs-parent="#accordionVigente">
+        <div class="accordion-body">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    Oficio Estudiantes Desarrollaron Tema y Perfil
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/1_Oficio Estudiantes Desarrollaron Tema y Perfil.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white py-1" href="https://www.instagram.com/" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+                <li class="list-group-item">
+                    Solicitud Aprobación de Perfil de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/3_Solicitud Aprobacion de Perfil de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white py-1" href="https://twitter.com/" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                <li class="list-group-item">
+                    Solicitud Sustentación Proyecto Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/4_Solicitud Sustentación Proyecto Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white py-1"  target="_blank">
-                        <i class="fab fa-x-twitter"></i>
-                    </a>
+                <li class="list-group-item">
+                    Informe Final de Investigación VIGENTES
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/Informe Final del Investigación_VIGENTES.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
                 </li>
+                <li class="list-group-item">
+                    Instructivo Informe Final de Trabajo de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-IGF-01-04-08.10 Instructivo Informe Final del Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Propuesta Tema Proyecto de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.01 Propuesta Tema Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Lista Estudiantes con Tema de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.02 Lista Estudiantes con Tema de Investigación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Propuesta Asignación de Tutores
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.03 Propuesta Asignación de Tutores.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Perfil Proyecto de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.04 Perfil Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Visto Bueno Perfil Proyecto de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.05 Visto Bueno Perfil Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Acta Aprobación Perfil Proyecto de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.06 Acta Aprobación Perfil Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Acta Observaciones Perfil Proyecto de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.07 Acta Observaciones Perfil Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Planificación Tutoría Trabajo de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.08 Planificación Tutoría Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Reporte Tutoría de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.09 Reporte Tutoría Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Acta Favorable Informe Final del Trabajo de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.11 Acta Favorable Informe Final del Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Propuesta Designación Miembros Evaluadores
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.12 Propuesta Designación Miembros Evaluadores.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Rúbrica de Calificaciones Trabajo Escrito de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.13 Rubrica de Calificaciones Trabajo Escrito de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Acta Calificaciones Trabajo Escrito de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.14 Acta Calificaciones Trabajo Escrito de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Acta Aprobación Trabajo Escrito de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.15 Acta Aprobación Trabajo Escrito de Investigacion.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Acta Observaciones Trabajo de Investigación
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.16 Acta Observaciones Trabajo Escrito de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <li class="list-group-item">
+                    Certificado Sistema Anti Plagio
+                    <a href="Formatos/Formatos/Carrera vigente/8_Trabajo de Investigación - TIC/UNACH-RGF-01-04-08.17 Certificado Sistema Anti plagio.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                </li>
+                <!-- Agrega más formatos según sea necesario -->
             </ul>
         </div>
     </div>
 </div>
 
+    <!-- Sección 6 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingVigente6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVigente6" aria-expanded="false" aria-controls="collapseVigente6">
+                Examen Complexivo Teórico- TIC
+            </button>
+        </h2>
+        <div id="collapseVigente6" class="accordion-collapse collapse" aria-labelledby="headingVigente5" data-bs-parent="#accordionVigente">
+            <div class="accordion-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Oficio de Temáticas Estudiantes
+                        <a href="Formatos/Formatos/Carrera vigente/9_Examen Complexivo Teórico - TIC/1_Oficio de Temáticas Estudiantes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                    </li>
+                    <li class="list-group-item">
+                        Oficio de Temáticas Docentes
+                        <a href="Formatos/Formatos/Carrera vigente/9_Examen Complexivo Teórico - TIC/2_Oficio de Temáticas Docentes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                    </li>
+                    <li class="list-group-item">
+                        Solicitud rendir examen complexivo teórico
+                        <a href="Formatos/Formatos/Carrera vigente/9_Examen Complexivo Teórico - TIC/3_Solicitud rendir examen complexivo teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                    </li>
+                    <li class="list-group-item">
+                        Planificación Asesoramiento Temas de Asignaturas
+                        <a href="Formatos/Formatos/Carrera vigente/9_Examen Complexivo Teórico - TIC/UNACH-RGF-01-04-09.01 Planificación Asesoramiento Temas de Asignaturas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                    </li>
+                    <li class="list-group-item">
+                        Registro Asesoramiento de Asignaturas
+                        <a href="Formatos/Formatos/Carrera vigente/9_Examen Complexivo Teórico - TIC/UNACH-RGF-01-04-09.02 Registro Asesoramiento de Asignaturas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                    </li>
+                    <li class="list-group-item">
+                        Certificado Cumplimiento Asesoramiento
+                        <a href="Formatos/Formatos/Carrera vigente/9_Examen Complexivo Teórico - TIC/UNACH-RGF-01-04-09.03 Certificado Cumplimiento Asesoramiento.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                    </li>
+                    <li class="list-group-item">
+                        Registro Asistencia Examen Complexivo Teórico
+                        <a href="Formatos/Formatos/Carrera vigente/9_Examen Complexivo Teórico - TIC/UNACH-RGF-01-04-09.04 Registro Asistencia Examen Complexivo Teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                    </li>
+                    <!-- Agrega más formatos según sea necesario -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Carrera No Vigente -->
+    <h2 class="mb-4">Carrera No Vigente</h2>
+    <div class="accordion" id="accordionNoVigente">
+        <!-- Sección 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNoVigente1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoVigente1" aria-expanded="true" aria-controls="collapseNoVigente1">
+                    Planificación y Seguimiento
+                </button>
+            </h2>
+            <div id="collapseNoVigente1" class="accordion-collapse collapse" aria-labelledby="headingNoVigente1" data-bs-parent="#accordionNoVigente">
+                <div class="accordion-body">
+                    <!-- Lista de formatos -->
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Oficio de Modalidad Titulación Escogida
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/1_Oficio de Modalidad Titulación Escogida.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud de Matrícula o Prórroga
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/2_Solicitud de Matricula o Prorroga.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Plan de Titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.01 Plan de Titulación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Parcial de Seguimiento de Titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.07 Informe Parcial de Seguimiento de Titulación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Final de Seguimiento de Titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.08 Informe Final de Seguimiento de Titulación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Nómina Profesores Legibles para Titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.09 Nómina Profesores Legibles para Titulacion.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Nómina de Estudiantes por Coherte-Matricula-Modalidad
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.11 Nómina de Estudiantes por Cohorte – Matricula – Modalidad.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Consolidado de carrera del proceso de titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.12 Reporte consolidado de carrera del proceso de titulación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Designación Profesores para Titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.13 Registro Designación Profesores para Titulación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Cronograma de Titulación Especial
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.14 Cronograma de Titulación Especial.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Actividades Seguimiento y Evaluación de Titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.15 Actividades Seguimiento y Evaluación de Titulación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Estado Proceso de Titulación
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.16 Reporte Estado Proceso de Titulación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte de Acciones Ejecutadas
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.17 Reporte de Acciones Ejecutadas.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Consolidado de Titulación Institucional
+                            <a href="Formatos/Formatos/Carrera no vigente/1_Planificación y Seguimiento - TE/UNACH-RGF-01-04-01.18 Reporte Consolidado de Titulación Institucional.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <!-- Agrega más formatos según sea necesario -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Secciones adicionales (2 a 6) -->
+        <!-- Sección 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNoVigente2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoVigente2" aria-expanded="false" aria-controls="collapseNoVigente2">
+                    Proyecto de Investigación
+                </button>
+            </h2>
+            <div id="collapseNoVigente2" class="accordion-collapse collapse" aria-labelledby="headingNoVigente2" data-bs-parent="#accordionNoVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Oficio Estudiantes Desarrollaron Tema y Perfil
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/1_Oficio Estudiantes Desarrollaron Tema y Perfil.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud Aprobación Tema del Proyecto de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/2_Solicitud Aprobación Tema del Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud Aprobación de Perfil de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/3_Solicitud Aprobacion de Perfil de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud Sustentación Informe final del trabajo de investigación 
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/4_Solicitud Sustentación Informe final del trabajo de investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Final de Investigación NO_VIGENTES
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/Informe Final del Investigación_NO VIGENTES.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Instructivo Informe Final del Trabajo de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-IGF-01-04-02.14 Instructivo Informe Final del Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Rúbrica de Calificaciones Trabajo Escrito de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-IGF-01-04-02.30 Rubrica de Calificaciones Trabajo Escrito de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Observaciones del Tema
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.02 Acta Observaciones del Tema.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Aprobación del Tema y Asignación de Tutor
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.03 Acta Aprobación del Tema y Asignacion de tutor.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Visto Bueno Perfil del Proyecto de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.05 Visto Bueno Perfil del Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta de Aprobación Perfil del Proyecto de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.07 Acta Aprobación Perfil del Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Observaciones Peril del Proyecto de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.08 Acta Observaciones Perfil del Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Planificación Tutoria de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.10 Planificación Tutoria Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Tutoría Trabajo de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.11 Reporte Tutoria Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Cumplimiento 400 horas
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.16 Informe Cumplimiento 400 Horas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Cumplimiento 400 horas
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.17 Certificado Cumplimiento 400 Horas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Observaciones Trabajo Escrito de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.18 Acta Observaciones Trabajo Escrito de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Favorable Informe Final Trabajo de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.19 Acta Favorable Informe Final Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Sistema Anti Plagio
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.20 Certificado Sistema Anti plagio.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Calificaciones Trabajo Escrito de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.21 Acta Calificaciones Trabajo Escrito de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Aprobación Trabajo Escrito de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.22 Acta Aprobación Trabajo Escrito de Investigacion.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Lista de Estudiantes que Desarrollaron el Tema y Perfil de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.25 Lista Estudiantes Desarrollaron Tema y Perfil de Investigación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Tema Proyecto de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.26 Tema Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Perfil Proyecto de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.27 Perfil Proyecto de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificación Cumplimiento Curso Metodología de la Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.28 Certificación Cumplimiento Curso Metodología de la Investigación.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Reporte Temas y Perfiles Aprobados
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.29 Reporte Temas y Perfiles Aprobados.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Tutoria Perfil Trabajo de Investigación
+                            <a href="Formatos/Formatos/Carrera no vigente/2_Proyecto de Investigación - TE/UNACH-RGF-01-04-02.31 RegistroTutoria Perfil Trabajo de Investigación.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <!-- Agrega más formatos según sea necesario -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Continúa con las secciones 3 a 6 de la misma manera -->
+        <!-- Sección 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNoVigente3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoVigente3" aria-expanded="false" aria-controls="collapseNoVigente3">
+                    Examen Complexivo Teórico
+                </button>
+            </h2>
+            <div id="collapseNoVigente3" class="accordion-collapse collapse" aria-labelledby="headingNoVigente3" data-bs-parent="#accordionNoVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Oficio de Temáticas Estudiantes
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/1_Oficio de Temáticas Estudiantes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Oficio de Temáticas Docentes
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/2_Oficio de Temáticas Docentes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud Rendir examen complexivo teórico
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/3_Solicitud rendir examen complexivo teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registros Asistencia Estudiantes
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/UNACH-RGF-01-04-03.07 Registros Asistencia Estudiantes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Trabajo Autónomo
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/UNACH-RGF-01-04-03.09 Registro Trabajo Autónomo.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Cumplimiento 400 horas
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/UNACH-RGF-01-04-03.11 Informe Cumplimiento 400 Horas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Cumplimiento 400 horas
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/UNACH-RGF-01-04-03.12 Certificado Cumplimiento 400 horas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Lista Estudiantes Habilitados
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/UNACH-RGF-01-04-03.13 Lista Estudiantes Habilitados.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asistencia Examen Complexivo Teórico
+                            <a href="Formatos/Formatos/Carrera no vigente/3_Examen Complexivo Teórico - TE/UNACH-RGF-01-04-03.16 Registro Asistencia Examen Complexivo Teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sección 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNoVigente4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoVigente4" aria-expanded="false" aria-controls="collapseNoVigente4">
+                    Examen Complexivo Teórico-Práctico-TE
+                </button>
+            </h2>
+            <div id="collapseNoVigente4" class="accordion-collapse collapse" aria-labelledby="headingNoVigente3" data-bs-parent="#accordionNoVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Oficio de Temáticas Estudiantes
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/1_Oficio de Temáticas Estudiantes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Oficio de Temáticas Docentes
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/2_Oficio de Temáticas Docentes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Solicitud Rendir examen complexivo teórico
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/3_Solicitud rendir examen complexivo teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registros Asistencia Estudiantes
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/UNACH-RGF-01-04-04.07 Registros de Asistencia Estudiantes.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro de Trabajo Autónomo
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/UNACH-RGF-01-04-04.09 Registro de Trabajo Autónomo.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Informe Cumplimiento 400 horas Examen Complexivo
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/UNACH-RGF-01-04-04.11 Informe Cumplimiento 400 Horas Examen Complexivo.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Cumplimiento 400 horas
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/UNACH-RGF-01-04-04.12 Certificado Cumplimiento 400 Horas.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Lista Estudiantes Habilitados
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/UNACH-RGF-01-04-04.13 Lista de Estudiantes Habilitados.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asistencia Examen Complexivo Comp-Teórico
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/UNACH-RGF-01-04-04.16 Registro Asistencia Examen Complexivo Comp-Teórico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asistencia Examen Complexivo Comp-Práctico
+                            <a href="Formatos/Formatos/Carrera no vigente/4_Examen Complexivo Teórico - Práctico - TE/UNACH-RGF-01-04-04.18 Registro Asistencia Examen Complexivo Comp-Práctico.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNoVigente5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoVigente5" aria-expanded="false" aria-controls="collapseNoVigente5">
+                    Actualización de Conocimientos-TE
+                </button>
+            </h2>
+            <div id="collapseNoVigente5" class="accordion-collapse collapse" aria-labelledby="headingNoVigente3" data-bs-parent="#accordionNoVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Solicitud Modificación Malla
+                            <a href="Formatos/Formatos/Carrera no vigente/5_Actualización de Conocimientos - TE/1_Solicitud Modificación Malla.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Modificación Malla Curricular
+                            <a href="Formatos/Formatos/Carrera no vigente/5_Actualización de Conocimientos - TE/UNACH-RGF-01-04-05.02 Certificado Modificacion Malla Curricular.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Registro Asistencia Curso Actualización
+                            <a href="Formatos/Formatos/Carrera no vigente/5_Actualización de Conocimientos - TE/UNACH-RGF-01-04-05.07 Registro Asistencia Curso Actualización.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Lista Estudiantes Habilitados
+                            <a href="Formatos/Formatos/Carrera no vigente/5_Actualización de Conocimientos - TE/UNACH-RGF-01-04-05.08 Lista Estudiantes Habilitados.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Certificado Curso de Actualización de Conocimientos
+                            <a href="Formatos/Formatos/Carrera no vigente/5_Actualización de Conocimientos - TE/UNACH-RGF-01-04-05.10 Certificado Curso de Actualización de Conocimientos.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Acta Calificaciones Curso Actualización de Conocimientos
+                            <a href="Formatos/Formatos/Carrera no vigente/5_Actualización de Conocimientos - TE/UNACH-RGF-01-04-05.11 Acta Calificaciones Curso Actualización de Conocimientos.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sección 6 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNoVigente6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNoVigente6" aria-expanded="false" aria-controls="collapseNoVigente6">
+                    Registro de Título e Incorporación -TE-TIC
+                </button>
+            </h2>
+            <div id="collapseNoVigente6" class="accordion-collapse collapse" aria-labelledby="headingNoVigente3" data-bs-parent="#accordionNoVigente">
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Acta de Grado
+                            <a href="Formatos/Formatos/Carrera no vigente/6_Registro de Titulo e Incorporacion - TE-TIC/ACTA DE GRADO.docx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        <li class="list-group-item">
+                            Matriz Información de Graduados
+                            <a href="Formatos/Formatos/Carrera no vigente/6_Registro de Titulo e Incorporacion - TE-TIC/MATRIZDE INFORMACION DE GRADUADOS.xlsx" download class="btn btn-primary btn-sm float-end">Descargar</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+        
+        </div>
+    </div>
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white py-3" style="margin-top: 0; padding-top: 10px; padding-bottom: 10px; min-height: 20vh; display: flex; flex-direction: column; justify-content: flex-start;">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-6 mb-4 text-center"><br> <br> <br> <br>
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Contáctanos</h5>
+            <p style="margin-bottom: 10px;">
+                <i class="fa fa-map-marker-alt mr-2"></i>
+                <a href="https://www.google.com/maps?q=Av.+Antonio+José+de+Sucre+Km+1+1/2+camino+a+Guano,+Velasco+Riobamba,+Ecuador" target="_blank" class="map-link">
+                    Av. Antonio José de Sucre Km 1 1/2 camino a Guano ----(RRPP) Velasco Riobamba, Ecuador
+                </a>
+            </p>
+            
+
+            <p style="margin-bottom: 10px;">
+                <i class="fa fa-envelope mr-2"></i>
+                <a href="mailto:titulacion.ingenieria@unach.edu.ec" class="email-link">
+                    titulacion.ingenieria@unach.edu.ec
+                </a>
+            </p>
+            
+            <div class="d-flex justify-content-center mt-3">
+                <a class="btn btn-outline-light btn-square social-link mr-2" href="https://x.com/Unach_ec">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-outline-light btn-square social-link mr-2" href="https://www.facebook.com/unach.ec">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-outline-light btn-square social-link" href="https://www.instagram.com/ingenieriaunach/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-4 text-center">  <br> <br> <br> <br>
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 3px;">Aliados</h5>
+            <div class="d-flex flex-column align-items-center">
+                <a class="text-white ally-link mb-2" href="https://www.unach.edu.ec/">
+                    <i class="fa fa-angle-right mr-2"></i>Universidad Nacional de Chimborazo
+                </a>
+                <a class="text-white ally-link mb-2" href="https://www.facebook.com/FacultadIngenieriaUnach">
+                    <i class="fa fa-angle-right mr-2"></i>Ingeniería Unach
+                </a>
+                <a class="text-white ally-link mb-2" href="#">
+                    <i class="fa fa-angle-right mr-2"></i>D'Soft.Net
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-white border-top py-2 text-center" style="margin-bottom: 0; width: 100%;">
+        <span>
+            &copy; 2024 Todos los derechos reservados | TITULACIÓN - Unach | Powered By 
+            <a href="https://www.facebook.com/profile.php?id=61551591911624" target="_blank">D'Soft.Net</a>
+        </span>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" style="display: none;"><i class="fa fa-angle-double-up"></i></a>
+
 <!-- Asegúrate de incluir FontAwesome en tu proyecto para que los iconos se muestren correctamente -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-<!-- Footer End -->  
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
